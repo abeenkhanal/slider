@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vh;
+    
+    
+}
+.slideshow-container{
+    border: 2px solid red;
+}
+.controller{
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
