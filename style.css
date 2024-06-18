@@ -9,20 +9,27 @@ body{
     justify-content: center;
     height: 100vh;
     width: 100vh;
-    
+
     
 }
 .slideshow-container{
     border: 2px solid red;
 }
 .controller{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 100%;
     width: 100%;
-    
     align-items: center;
     justify-content: center;
     display: flex;
     justify-content: space-between;
     
+}
+.prev{
+    position: absolute ;   
+}
+.nxt{
+    position: absolute ;  
+    
+  right: 46.5%;
 }
