@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
+
 }
+
 /* body{
    
     align-items: center;
@@ -12,15 +13,17 @@
 
     
 } */
-.btn{
+.btn {
     display: flex;
     justify-content: center;
     gap: 90px;
     margin-top: 40px;
     align-items: center;
- 
+    margin-right: 400px;
+
 }
-.controller{
+
+.controller {
     display: flex;
     justify-content: center;
     background-color: gray;
@@ -31,22 +34,26 @@
 
 
 }
-.nxt{
+
+.nxt {
     padding: 10px 30px;
     border-radius: 20px;
     background-color: gray;
 }
-.pre{
+
+.pre {
     padding: 10px 35px;
     border-radius: 20px;
     background-color: gray;
 }
-.slider{
+
+.slider {
     margin: 200px 100px;
     width: 70%;
     align-items: center;
     margin-left: 445px;
 }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -60,6 +67,8 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
+    position: fixed;
+    top: 0px;
 }
 
 .logo img {
@@ -91,6 +100,10 @@ body {
     color: black;
 }
 
+.active {
+    background-color: red;
+}
+
 
 @media screen and (max-width: 600px) {
     .navbar {
@@ -113,3 +126,23 @@ body {
         height: 30px;
     }
 }
+
+.page section {
+    height: 100vh;
+}
+
+.page #home {
+    background-color: #333;
+    
+}
+
+.page #services {
+    background-color: #871313;
+}
+
+.page #about {
+    background-color: #e02a2a;
+}
+.page #contact{
+    background-color: #979acf;
+    }

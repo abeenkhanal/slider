@@ -59,5 +59,32 @@ function Prev(){
 
 
 //nav bar
+let navitems=document.querySelectorAll('.items ul li')
+
+function navbar(active){
+    console.log(navitems)
+    navitems.forEach((li)=>{
+        console.log(li.getAttribute('id')==active);
+       li.classList.remove('active')
+       if(li.getAttribute('id')==active){
+        li.classList.add('active')
+       }
+    })
+}
 
 
+navbar('home')
+
+let sections=document.querySelectorAll('.page section')
+
+window.addEventListener('scroll',function(){
+    console.log(pageYOffset)
+
+    sections.forEach((section)=>{
+        if(pageYOffset>=section.offsetTop-60){
+            console.log(section.getAttribute('id'))
+            navbar(section.getAttribute('id'))
+        }
+
+    })
+})
