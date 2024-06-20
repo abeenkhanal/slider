@@ -9,17 +9,30 @@
 </head>
 
 <body>
+    <nav class="navbar">
+        <div class="logo">
+            <h2>Logo</h2>
+        </div>
+        <div class="items">
 
-<div class="main">
-    <div class="controller" id="data">
+            <ul>
+                <li><a href="#home" onclick="navbar('home')" id="home">Home</a></li>
+                <li><a href="#services" onclick="navbar('services')" id="services">Services</a></li>
+                <li><a href="#about" onclick="navbar('about')" id="about">About</a></li>
+                <li><a href="#contact" onclick="navbar('contact')" id="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="controller" id="data">
 
+        </div>
+        <div class="btn">
+            <button onclick="Prev()" class="pre">Previous </button>
+            <button onclick="Next()" class="nxt">Next </button>
+
+        </div>
     </div>
-<div class="btn">
-    <button onclick="Prev()" class="pre">Previous </button>
-    <button onclick="Next()" class="nxt">Next </button>
-
-</div>
-</div>
     <script src="./script.js"></script>
 </body>
 
