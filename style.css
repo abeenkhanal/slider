@@ -37,4 +37,6 @@ body{
 .main{
     margin: 200px 100px;
     width: 70%;
+    align-items: center;
+    margin-left: 445px;
 }

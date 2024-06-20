@@ -25,7 +25,7 @@ function  ImageSlide(){
     data.map((val,i)=>{
         if(i==start){
          dataimage.innerHTML=`<div>
-         <img src=${val.image} style='height:400px;width:400px;' />
+         <img src=${val.image} style='height:410px;width:615px;' />
          
          </div>`
         }
@@ -53,9 +53,11 @@ function Prev(){
     
     ImageSlide(start)
     }
-
-
-
-// setInterval(() => {
+    // setInterval(() => {
 //     Next()
 // }, 1000);
+
+
+//nav bar
+
+
