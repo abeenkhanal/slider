@@ -68,11 +68,11 @@ function navbar(active) {
     navitems.forEach((li) => {
         console.log(li.getAttribute('id') == active);
         li.classList.remove('active')
-        //    if(li.getAttribute('id')==active){
-        if (li.classList.contains(active)) {
-            li.classList.add('active')
-        }
-    })
+        if (li.getAttribute('id') == active) {
+            if (li.classList.contains(active)) {
+                li.classList.add('active')
+            }
+        })
 }
 
 
