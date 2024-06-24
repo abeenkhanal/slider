@@ -41,6 +41,8 @@ if(start===data.length-1){
     start+=1
 }
 
+
+
 ImageSlide(start)
 }
 
