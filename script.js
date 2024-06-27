@@ -32,6 +32,9 @@ function ImageSlide() {
     })
 }
 
+
+
+
 ImageSlide(start)
 
 function Next() {
