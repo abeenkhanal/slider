@@ -78,6 +78,9 @@ function navbar(active) {
         })
 }
 
+
+
+
 navbar('home')
 
 let sections = document.querySelectorAll('.page section')
